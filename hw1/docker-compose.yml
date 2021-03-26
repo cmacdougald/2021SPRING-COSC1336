@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  hw1:
+    image: hw1
+    build:
+      context: .
+      dockerfile: ./Dockerfile
