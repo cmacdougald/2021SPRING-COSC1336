@@ -4,6 +4,12 @@ int main() {
     int intNumber = 2;
     char chrChoice = 'a';
 
+    std::cout << "Enter a number between 1 and 20: ";
+    std::cin >> intNumber;
+
+    std::cout << "Enter a lowercase letter: ";
+    std::cin >> chrChoice;
+
     if(intNumber == 1) {
         std::cout << "Crit Fail" << std::endl;
     }
