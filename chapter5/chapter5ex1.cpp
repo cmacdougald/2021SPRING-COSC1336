@@ -22,9 +22,9 @@ int main() {
 
     for(int intNumber = 1; intNumber <= 10000; intNumber++) {
         // Reset Prime before testing for prime
-     
         std::cout << intNumber << " is a " << (isPrime(intNumber) ? "": "not ") << "prime number." << std::endl;
-        
+        //std::cerr << "Output: " << intNumber << std::endl;
+
         //if(boolIsPrime) {
         //    std::cout << intNumber << ", ";
         //}

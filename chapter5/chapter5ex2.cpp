@@ -79,10 +79,10 @@ int main() {
 
     if(intCard > 52) {
         intCard = 52;
-        std::cerr << "Warning: intCard is greater than 52. Default is 52." << std::endl;
+        std::cerr << "Warning W001: intCard is greater than 52. Default is 52." << std::endl;
     } else if (intCard < 1) {
         intCard = 1;
-        std::cerr << "Warning: intCard is less than 1. Default is 1." << std::endl;
+        std::cerr << "Warning W002: intCard is less than 1. Default is 1." << std::endl;
     }
 //          A                         J  Q  K
 //Row 1:    1  2  3  4  5  6 7 8 9 10 11 12 13 - Clubs
